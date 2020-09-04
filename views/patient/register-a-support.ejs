@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('layouts/header'); -%>
+
+    <body>
+
+        <!-- Navigation -->
+        <%- include('layouts/navbar'); -%>
+
+            <!-- Page Header -->
+            
+              
+
+<body>
+    <div class="container">
+        <div class="row">
+            <h1 class="post-title">
+                Registration of support
+            </h1>
+        </div>
+        <div class="form-align" id="name">
+            <div class="input-wrapper">
+                <label for="fullname">Full Name</label>
+                <input type="fullname" id="fullname" name="fullname" class="form-control" placeholder=" " />
+                <div id="fullname-error" class="message-error"></div>
+
+        </div>
+    </div>
+    <div class="form- align" id="contact">
+        <div class="input-wrapper">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" class="form-control" placeholder=" " />
+            <div id="email-error" class="message-error"></div>
+        </div>
+
+        <div class="form-align" id="contact">
+            <div class="input-wrapper">
+                <label for="PatientProfile">Patient Profile</label>
+                <input type="file" id="file" name="file" class="form-control"/> 
+            </div>
+        </div>
+        <a href="home" class="btn btn-primary btn-user btn-block">Search</a>
+         </div>
+       
+                 <%- include('layouts/footer'); -%>
+                <%- include('layouts/scripts'); -%>
+
+</body>
+</html>

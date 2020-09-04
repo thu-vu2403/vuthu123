@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('layouts/header'); -%>
+<body>
+    <%- include('layouts/navbar'); -%>
+        <div class="container">
+            <div class="row">
+                <h1 class="post-title">
+                   CONNECTION
+                </h1>
+            </div>
+            <header class="search">  </header>
+            <div class="container">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <div class="search">
+                        <ul class="navbar-nav ml-auto">
+                            <form class="form-inline" action="/somepage">
+                                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                                <button class="btn btn-success" type="submit">
+                                    <svg width="20px" height="20px" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                                        <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                                    </svg>
+                                </button>
+                            </form>
+                        </ul>
+                </div>
+        <div class="form-align" id= "search"> </div>
+        <section class="chat-container">
+            <div class="aside-left">
+              <div class="list-conversation">
+                <div class="conversation current">   
+                    <img src="/img/avatar.png" alt="Avatar" class="avatar">
+
+                  <div class="conversation-title">JJH Hospital</div>
+                 
+                </div>
+                <div class="conversation"> 
+                 <img src="/img/avatar.png" alt="Avatar" class="avatar">
+                  <div class="conversation-title">Anderson TX Hospital</div>
+                 
+              </div>
+              <div class="conversation">
+                <img src="/img/avatar.png" alt="Avatar" class="avatar">
+                <div class="conversation-title">Stanfort Hospital</div>
+            </div>
+              <!-- <form class="form-add-conversation"> -->
+                <!-- <div class="input-wrapper">
+                  <input type="text" name="title" placeholder="New title">
+                </div>
+                <div class="input-wrapper">
+                  <input type="email" name="friendEmail" placeholder="Your friend email">
+                </div> -->
+                <!-- <button type="submit" class="btn-icon">
+                  <i class="fas fa-plus"></i>
+                </button> -->
+              <!-- </form> -->
+            </div>
+                 <div class="row justify-content-center">
+
+                <div class="col-xl-10 col-lg-12 col-md-9">
+    
+                    <div class="card o-hidden border-0 shadow-lg my-5">
+                        <div class="card-body p-0">
+                            <!-- Nested Row within Card Body -->
+                            <div class="row">
+                                <div class="col-lg-5 d-none d-lg-block"></div>
+                                <div class="col-lg-6">
+                                    <div class="p-5">
+                                        <div class="text-center" >
+                                           
+                                            <h1 class="h3 text-gray-600 mb-4">JJH Hospital</h1>
+                                        </div>
+            <div class="current-conversation">
+              <div class="list-message">
+                <div class="message">
+                  <span>Hello</span>
+                </div>
+                <div class="message your">
+                  <span>Can I aske some question?</span>
+                </div>
+                <div class="message">
+                    <span></span>
+                </div>
+              </div>
+              <form class="form-add-message">
+                <div class="input-wrapper">
+                  <input type="text" name="message" placeholder="Enter the message,@name">
+                </div>
+                <button type="submit">Send</button>
+              </form>
+            </div>
+        
+        </div>
+       
+       </div>
+       
+       
+       
+       
+       
+       
+       
+    
+       
+       <%- include('layouts/footer'); -%>
+       <%- include('layouts/scripts'); -%>
+
+</body>
+</html>
